@@ -1,3 +1,5 @@
+#此文档中的自定义常量可以在模板中使用，以后有修改的时候就不需要跑去改代码了。尤其是对一些私人的选项，可以在这里定义。
+
 # --- General options --- #
 
 # url is the full website URL
@@ -115,7 +117,8 @@ timezone: "America/Vancouver"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
-paginate: 5
+#分页时每页博文数量
+paginate: 6  
 
 kramdown:
   input: GFM

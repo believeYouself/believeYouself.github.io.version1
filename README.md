@@ -237,3 +237,12 @@ If you do fork or clone this project to use as a template for your site, I would
 ## Known limitations
 
 - If you have a project page and you want a custom 404 page, you must have a custom domain.  See https://help.github.com/articles/custom-404-pages/.  This means that if you have a regular User Page you can use the 404 page from this theme, but if it's a website for a specific repository, the 404 page will not be used.
+
+##本人的补充
+md文件中，自定义常量外的变量必须包含进去，自定义变量在这个布局中可以访问。
+	layout: post                                   #这个博客的布局文件
+	title: 在Github上搭建自己的Jekyll博客             #博客标题
+	category: 工具                                  #博客分类
+	tags: Jekyll                                   #博客标签
+	keywords: Jekyll,Github                        #自定义常量
+	description:                                   #自定义常量
