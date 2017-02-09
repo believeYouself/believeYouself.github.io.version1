@@ -80,10 +80,13 @@ footer-links-active:
 
 # Select which share links to show in posts
 share-links-active:
-  twitter: true
-  facebook: true
+  twitter: false
+  facebook: false
   google: false
-  linkedin: true
+  linkedin: false
+  qzone: false
+  weixin: true
+  weibo: true
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer

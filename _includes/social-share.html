@@ -41,6 +41,29 @@
     </a>
   {% endif %}
 
+    <!--- Share on qzone -->
+  {% if site.share-links-active.qzone %}
+    <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}"
+      class="btn btn-social-icon btn-qzone" title="Share on qzone">
+      <span class="fa fa-fw fa-qzone" aria-hidden="true"></span>
+    </a>
+  {% endif %}
+  
+    <!--- Share on weixin -->
+  {% if site.share-links-active.weixin %}
+    <a href="http://www.jiathis.com/share"
+      class="btn btn-social-icon btn-weixin" title="Share on weixin"  target="_blank">
+      <span class="fa fa-fw fa-weixin" aria-hidden="true"></span>
+    </a>
+  {% endif %}
+  
+    <!--- Share on weibo -->
+  {% if site.share-links-active.weibo %}
+    <a href="http://service.weibo.com/share/share.php?appkey=&title={{ page.title}}&url={{ site.url }}{{ page.url }}&pic=&searchPic=false&style=simple"
+      class="btn btn-social-icon btn-weibo" title="Share on weibo"  target="_blank">
+      <span class="fa fa-fw fa-weibo" aria-hidden="true"></span>
+    </a>
+  {% endif %}
 </section>
 
 {% endif %}
