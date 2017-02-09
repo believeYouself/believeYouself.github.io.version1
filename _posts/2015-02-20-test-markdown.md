@@ -3,7 +3,8 @@ layout: post
 title: Test markdown
 subtitle: Each post also has a subtitle
 ---
-
+* 目录
+{:toc}
 You can write regular [markdown](http://markdowntutorial.com/) here and Jekyll will automatically convert it to a nice webpage.  I strongly encourage you to [take 5 minutes to learn how to write in markdown](http://markdowntutorial.com/) - it'll teach you how to transform regular text into bold/italics/headings/tables/etc.
 
 **Here is some bold text**
@@ -31,7 +32,9 @@ var foo = function(x) {
   return(x + 5);
 }
 foo(3)
-~~~
+~~~    
+
+### Here is a third heading     
 
 And here is the same code with syntax highlighting:
 

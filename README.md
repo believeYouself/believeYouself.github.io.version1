@@ -246,3 +246,9 @@ md文件中，自定义常量外的变量必须包含进去，自定义变量在
 	tags: Jekyll                                   #博客标签
 	keywords: Jekyll,Github                        #自定义常量
 	description:                                   #自定义常量
+	
+Markdown:
+	1、链接默认在本标签页中打开，在新标签打开链接方法-例如 ：[my movie](https://github.com/believeYouself){:target="_blank"}
+	2、添加文章目录   
+		* 目录
+        {:toc}
