@@ -41,13 +41,6 @@
     </a>
   {% endif %}
 
-    <!--- Share on qzone -->
-  {% if site.share-links-active.qzone %}
-    <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}"
-      class="btn btn-social-icon btn-qzone" title="Share on qzone">
-      <span class="fa fa-fw fa-qzone" aria-hidden="true"></span>
-    </a>
-  {% endif %}
   
     <!--- Share on weixin -->
   {% if site.share-links-active.weixin %}
@@ -64,6 +57,8 @@
       <span class="fa fa-fw fa-weibo" aria-hidden="true"></span>
     </a>
   {% endif %}
+  <a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
 </section>
 
 {% endif %}
+<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
