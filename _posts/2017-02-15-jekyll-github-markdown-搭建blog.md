@@ -2,9 +2,7 @@
 layout: post
 title: jekyll+github pages+markdown=blog
 ---
-
-## 基本概念 ##       
-
+      
 github pages  
 > GitHub 为每一个用户分配了一个二级域名<user-id>.github.io，用户为自己的二级域名创建主页很容易，只要在托管空间下创建一个名为<user-id>.github.io的版本库，向其master分支提交网站静态页面即可，其中网站首页为index.html。还可以为每个项目设置主页，项目主页也通过此二级域名进行访问，例如gotgithub用户创建的helloworld项目如果启用了项目主页，则可通过网址http://gotgithub.github.io/helloworld/访问。   
 
@@ -20,13 +18,13 @@ markdown
 > 和html、textile一样，是一种文本标记语言，可快速掌握其语法，写优美的博客。 
 
 git基本用法
->暂存所有内容： git add .
+> 暂存所有内容： git add .
 提交暂存内容到本地git库：$ git commit -m "first post"  
 $ git remote add origin https://github.com/username/jekyll_demo.git     
 将本地git库内容提交到远程git库中gh-pages分支：$ git push origin gh-pages       
 克隆远程项目： git clone http://XXX.XXX/sq-group/XXX.git        
   
-## 搭建的基本步骤 ##
+搭建的基本步骤
 > 1. 本地搭建jekyll环境。      
 > 2. 自己创建或克隆他人的jekyll博客到本地，修改完善。          
 > 3. 将本地jekyll博客用git提交到github pages上部署。       
