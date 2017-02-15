@@ -1,6 +1,7 @@
 ---
 layout: post
 title: To be
+category: technology
 subtitle: ... or not to be?
 ---
 

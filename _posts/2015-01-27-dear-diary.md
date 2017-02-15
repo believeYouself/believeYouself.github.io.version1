@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Dear diary
+category: technology
 tags: [random, diary, school]
 ---
 

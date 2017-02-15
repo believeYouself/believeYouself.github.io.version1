@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Test markdown
+category: technology
 subtitle: Each post also has a subtitle
 ---
 * 目录
